@@ -1,3 +1,7 @@
+**Videos de la practica:** [Ver videos en OneDrive](https://1drv.ms/f/c/6b63aaec5c0ec7fc/IgDIK3ZKiVDHSqMyiQD1d0EqAV-zz2bVrkTrJduTAsyBIc8?e=ad0NjO)
+
+---
+
 # Práctica 2 — VPN Site-to-Site · INFRA1
 
 Laboratorio de Seguridad de Redes en PNETLab para comunicar una estación de usuario con un servidor mediante una VPN IPsec entre dos FortiGate. El acceso al servidor debe funcionar con el túnel activo y fallar cuando se deshabilita.
