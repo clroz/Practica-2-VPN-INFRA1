@@ -4,7 +4,15 @@ Laboratorio de Seguridad de Redes en PNETLab para comunicar una estación de usu
 
 Este repositorio reúne la documentación disponible y sus archivos de apoyo. Los resultados corresponden a las pruebas registradas el 1 y 2 de octubre de 2026; no representan una nueva validación de los equipos.
 
-> **Estado pendiente de cierre:** la última revisión documentó conectividad intermitente el 2 de octubre. Faltan resolver esa intermitencia y completar las capturas y el video finales. Las pruebas satisfactorias anteriores se conservan como evidencia histórica.
+> **Estado pendiente de cierre:** la última revisión de conectividad documentó intermitencia el 2 de octubre. Se incorporaron 12 capturas de topología, interfaces, DHCP, túneles y políticas. Faltan evidencias gráficas de HTTPS, SSH y traceroute, la secuencia completa de caída/recuperación y el video final. Las capturas de túneles Up no bastan para dar por resuelta la intermitencia.
+
+## Capturas del laboratorio
+
+![Esquema de VPN entre dos FortiGate a través del ISP](evidencias/capturas/01-topologia-vpn.png)
+
+Consulta la **[galería de 12 capturas con descripciones](docs/galeria-capturas.md)** para ver VLAN 10 y DHCP, direccionamiento WAN/LAN, estados del túnel y políticas de NAT/VPN. Las imágenes corresponden a distintas etapas del montaje; la galería señala los cambios de nombres e interfaces.
+
+![Políticas del FortiGate cliente: NAT hacia ISP y tráfico por VPN sin NAT](evidencias/capturas/11-politicas-cliente-nat-vpn.png)
 
 ## Objetivo y requisitos
 
@@ -68,7 +76,8 @@ Las solicitudes HTTPS con `curl -k` comprueban respuesta del servicio, pero no l
 | [Diseño](docs/diseno.md) | Direccionamiento, accesos administrativos y comportamiento esperado |
 | [Pruebas y entregables](docs/pruebas-y-entregables.md) | Resultados, limitaciones y secuencia de demostración |
 | [Persistencia](docs/persistencia.md) | Arranque, recuperación y alcance del reinicio probado |
-| [Capturas finales](docs/capturas-finales.md) | Lista de evidencias gráficas pendientes |
+| [Galería de capturas](docs/galeria-capturas.md) | 12 imágenes seleccionadas con origen y explicación |
+| [Capturas finales](docs/capturas-finales.md) | Evidencias incorporadas y lista de comprobaciones pendientes |
 | [Inventario PNETLab](docs/inventario-pnetlab.md) | Consulta histórica del 30 de septiembre, anterior al montaje final |
 | [Registro de reinicio](evidencias/reinicio-20261001.txt) | Salida registrada el 1 de octubre de 2026 |
 | [Scripts de apoyo](scripts/README.md) | Rutinas referenciadas por la documentación |

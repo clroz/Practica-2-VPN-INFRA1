@@ -17,7 +17,7 @@ Consigna confirmada: [consigna.md](consigna.md). Este registro sustituye el plan
 | Traceroute privado | Confirmado mediante sondas UDP: 10.17.45.1 → 10.17.45.129 → 10.17.45.130 |
 | NAT | Reglas visibles en pruebas anteriores; publicación a deshabilitar. Consigna no precisa aplicación final de NAT |
 | Persistencia | Reinicio PNETLab de PC, WEB e ISP comprobado: DHCP, red, HTTPS, SSH y acceso GUI recuperados automáticamente. Evidencia en evidencias/reinicio-20261001.txt. Falta reinicio completo del host/FortiGate; no cubre recreación desde imágenes base |
-| Capturas y video finales | Pendientes |
+| Capturas y video finales | [12 capturas incorporadas](galeria-capturas.md): topología, interfaces, DHCP, túneles y políticas. Faltan pruebas gráficas de servicios/traceroute, secuencia completa de caída/recuperación y video |
 
 ## Siguiente prueba guiada
 

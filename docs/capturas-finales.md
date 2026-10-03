@@ -1,5 +1,13 @@
 # Capturas finales
 
+## Capturas incorporadas al repositorio
+
+Se seleccionaron 12 imágenes de la carpeta Screenshots del usuario. Están disponibles en la [galería comentada](galeria-capturas.md) y en [evidencias/capturas](../evidencias/capturas). Cubren el esquema de topología, VLAN 10 y DHCP, interfaces LAN/WAN, estados Up/Inactive y políticas NAT/VPN.
+
+No se localizaron en las capturas revisadas las pruebas visuales de HTTPS privado, sesión SSH, concesión DHCP de la PC ni traceroute. La imagen del túnel Inactive no demuestra por sí sola que las conexiones al servidor fallen. Sigue pendiente completar esa secuencia de demostración y el video. La lista siguiente conserva los requisitos originales.
+
+## Lista de comprobación
+
 Guardar imágenes en evidencias/capturas. No mostrar contraseñas, claves VPN, hashes ni claves privadas. No usar las antiguas capturas de publicación HTTPS activa como estado final.
 
 1. Topología completa: PC, Fortinet1, ISP, Fortinet2, WEB y conexiones.
