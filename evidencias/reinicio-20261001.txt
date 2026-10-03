@@ -1,0 +1,37 @@
+2026-10-01T20:16:34+00:00
+lo               UNKNOWN        127.0.0.1/8
+eth1.10@eth1     UP             10.17.45.20/25
+eth0@if82        UP             10.177.0.3/16
+eth1@if85        UP             192.168.1.10/24
+default via 10.17.45.1 dev eth1.10
+10.17.45.0/25 dev eth1.10 proto kernel scope link src 10.17.45.20
+10.177.0.0/16 dev eth0 proto kernel scope link src 10.177.0.3
+192.168.1.0/24 dev eth1 proto kernel scope link src 192.168.1.10
+  expire 4 2026/10/08 06:48:02;
+}
+lease {
+  interface "eth1.10";
+  fixed-address 10.17.45.20;
+  option subnet-mask 255.255.255.128;
+  option routers 10.17.45.1;
+  option dhcp-lease-time 604800;
+  option dhcp-message-type 5;
+  option domain-name-servers 96.45.45.45,96.45.46.46;
+  option dhcp-server-identifier 10.17.45.1;
+  option unknown-224 "FGVMEV9OZTE7QG05";
+  option dhcp-renewal-time 302400;
+  option dhcp-rebinding-time 529200;
+  renew 1 2026/10/05 03:46:39;
+  rebind 3 2026/10/07 23:15:01;
+  expire 4 2026/10/08 20:15:01;
+}
+https://10.17.45.130/ HTTP 200 URL final https://10.17.45.130/
+http://192.168.1.99/ HTTP 200 URL final http://192.168.1.99/
+http://10.177.0.4:18081/ HTTP 200 URL final http://10.177.0.4:18081/
+https://198.51.100.22/ URLError <urlopen error timed out>
+SSH privado: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.1
+1
+xrdp
+xrdp-sesman
+dnsmasq
+dhclient
